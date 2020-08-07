@@ -1,0 +1,28 @@
+{
+    "inventory": [
+        {
+            "amount": 0,
+            "name": "牙膏",
+            "purchaseprice": 10,
+            "shoppingprice": 12.5
+        },
+        {
+            "amount": 0,
+            "name": "毛巾",
+            "purchaseprice": 15,
+            "shoppingprice": 18.75
+        },
+        {
+            "amount": 0,
+            "name": "毛巾",
+            "purchaseprice": 14,
+            "shoppingprice": 17.5
+        },
+        {
+            "amount": 0,
+            "name": "牙膏",
+            "purchaseprice": 13,
+            "shoppingprice": 16.25
+        }
+    ]
+}
