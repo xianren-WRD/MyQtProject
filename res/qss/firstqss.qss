@@ -1,0 +1,52 @@
+QMainWindow {
+	background:#4d4d4d;
+}
+
+QWidget::item:hover {
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                    stop: 0 #5d5d5d, stop: 1 #777777);
+}
+
+QWidget::item:selected {
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                    stop: 0 #5d5d5d, stop: 1 #777777);
+}
+
+QLineEdit {
+  border: 2px solid gray;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 0 8px;
+  background: #c5acd2;
+  selection-background-color: darkgray;
+}
+
+QLineEdit[echoMode="2"] {
+  lineedit-password-character: 9679;
+}
+
+QPushButton {
+  border: 2px solid #8f8f91;
+  border-radius: 6px;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                    stop: 0 #bfbfbf, stop: 1 #dadbde);
+  min-width: 80px;
+}
+
+QPushButton:hover {
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                    stop: 0 #4c4a48, stop: 1 #bfbfbf);
+}
+
+QPushButton:pressed {
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                    stop: 0 #dadbde, stop: 1 #bfbfbf);
+}
+
+QPushButton:flat {
+  border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+  border-color: navy; /* make the default button prominent */
+}
